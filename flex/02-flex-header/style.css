@@ -1,7 +1,41 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* JORDAN ADDITIONS */
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  /* JORDAN ADDITIONS */
 }
+
+/* JORDAN ADDITIONS */
+.left-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.left-links {
+  margin-left: 8px;
+}
+
+.right-links {
+  margin-right: 8px;
+}
+
+.header ul {
+  display: flex;
+  padding: 0px;
+}
+
+.left-links li {
+  margin-right: 16px;
+}
+
+.right-links li {
+  margin-left: 16px;
+}
+/* JORDAN ADDITIONS */
 
 .logo {
   font-size: 48px;
@@ -9,6 +43,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+/* JORDAN ADDITIONS */
+  margin: 8px;
+/* JORDAN ADDITIONS */
 }
 
 ul {
