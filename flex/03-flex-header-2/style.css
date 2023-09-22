@@ -15,7 +15,6 @@ body {
 /* ******** JORDAN *********/
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 /* ******** JORDAN *********/
 }
@@ -25,6 +24,7 @@ body {
 .header-right {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 /* ******** JORDAN *********/
 
@@ -64,5 +64,6 @@ ul {
   display: flex;
   gap: 8px;
   padding: 0px;
+  margin: 0px;
 /* ******** JORDAN *********/
 }
